@@ -59,7 +59,9 @@ function add_times(start_time, end_time){
     return c;
 }
 
-
+router.get('/', (req,res) => {
+    res.send('Welcome to the calendar appointment system');
+})
 
 
 // free slots for patient
